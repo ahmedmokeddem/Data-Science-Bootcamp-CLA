@@ -9,3 +9,4 @@ except TypeError: # will handle only TypeError
 	print(str(a) + s)
 	print("Printed using type-casted data types")
 except NameError: print("one of the variables is not declared")
+except IndentationError: print("The indentation is not respected")
